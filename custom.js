@@ -38,7 +38,7 @@ t_p_m = t_ma * man_p;
 document.getElementById("total-p-m").innerHTML = t_p_m;
 
 // vasan
-vasn = parseInt(prompt("કેટલા વાસણ:- "));
+vasn = parseInt(prompt("કેટલા માણસ નુ વાસણ:- "));
 vasn_day= parseInt(prompt("કેટલા દિવસ"));
 vasn_p = parseInt(prompt("વાસણ નો ભાવ"));
 document.getElementById("vasn").innerHTML = vasn;
