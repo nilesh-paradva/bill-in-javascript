@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-warning-subtle">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="dis border border-2 border-danger border-bottom-0 d-flex justify-content-between pb-4 flex-column">
+                        <span class="bg-danger text-white border border-2 border-danger fw-bold px-2 d-block text-center mb-1" style="height: 28px;">ડિલિવરી ચલણ</span>
+                        <div class="go-name text-center mb-3">
+                            <p class="text-danger m-0 fw-bold">જય હોલ મા</p>
+                            <p class="text-danger m-0 fw-bold">જય આશાપુરા મા</p>
+                        </div>
+                        <div class="go-name2 text-center mb-3">
+                            <p class="text-danger m-0 fw-bold">|| શ્રી ગણેશાય નમ: ||</p>
+                            <p class="text-danger m-0 fw-bold">જય શ્રી સ્વામિનારાયણ</p>
+                            <p class="text-danger m-0 fw-bold">જય લંબે હનુમાન દાદા</p>
+                        </div>
+                        <div class="name d-flex align-items-center flex-column">
+                            <ul class="list-unstyled m-0">
+                                <li>
+                                    <div class="mo-name-1 d-flex align-items-center justify-content-between">
+                                        <p class="text-danger m-0 fw-bold pe-5">જાદવભાઈ આર. બલદાણીયા</p>
+                                        <span class="fw-bold text-danger m-0">98253 79598</span>
+                                    </div>
+                                    <div class="mo-name-1 d-flex align-items-center justify-content-between">
+                                        <p class="text-danger m-0 fw-bold">ભૂપતભાઈ વી. પરડવા</p>
+                                        <span class="fw-bold text-danger m-0">95372 00131</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="com-name text-center d-flex align-items-center justify-content-center flex-column flex-lg-row border border-2 border-danger border-top-0 pb-4">
+                        <h1 class="text-danger fw-bold" style="font-size: 55px;">શ્રી રામ</h1>
+                        <p class="text-danger fw-bold m-0" style="font-size: 35px;">મંડપ&nbsp;&nbsp;સર્વિસ</p>
+                    </div>
+                    <div class="address border border-2 border-danger border-top-0 py-4">
+                        <p class="m-0 text-danger fw-bold text-center"><span class="text-danger fw-bold fs-5">Address-1:-</span> C/D-541,સીતારામ સોસાયટી,વિ-3,અર્ચના સ્કૂલ પાસે,પર્વત પાટિયા,રોડ,સુરત.</p>
+                        <p class="m-0 text-danger fw-bold text-center"><span class="text-danger fw-bold fs-5">Address-2:-</span> C/D-541,મા આનંદી બંગલોઝ,દેવધગામ,સુરત.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="name-2 border border-2 border-danger border-top-0 h-100 d-flex align-items-center">
+                        <ul class="list-unstyled m-0 ">
+                            <li>
+                                <p class="text-danger fw-bold fs-5 ps-2">નામ:- <span class="text-danger fw-bold fs-5" style="border-bottom: 2px solid red;" id="name-1"></span></p>
+                                <p class="text-danger fw-bold fs-5 ps-2">સરનામુ:- <span class="text-danger fw-bold fs-5" style="border-bottom: 2px solid red;" id="name-2"></span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="name-3 border border-2 border-danger border-top-0 h-100 d-flex align-items-center">
+                        <ul class="list-unstyled m-0">
+                            <li>
+                                <p class="text-danger fw-bold fs-5 ps-2 pt-1">ઓર્ડર લખાવ્યા તા:- <span class="text-danger fw-bold fs-5" style="border-bottom: 2px solid red;" id="or"></span></p>
+                                <p class="text-danger fw-bold fs-5 ps-2">પોગ્રામ તા:- <span class="text-danger fw-bold fs-5" style="border-bottom: 2px solid red;" id="po"></span></p>
+                                <p class="text-danger fw-bold fs-5 ps-2">પરત તા:- <span class="text-danger fw-bold fs-5" style="border-bottom: 2px solid red;" id="pa"></span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-center overflow-x-scroll">
+                        <div class="col-12 overflow-x-scroll">
+                            <table class="w-100" cellpadding="8">
+                                <tr class="bg-danger text-white border-0">
+                                    <th class="border border-end-1" width="200px">વિગત</th>
+                                    <th class="border border-end-1">નંગ</th>
+                                    <th class="border border-end-1">દિવસ</th>
+                                    <th class="border border-end-1">કુલ નંગ</th>
+                                    <th class="border border-end-1">ભાવ</th>
+                                    <th class="border border-end-1">કુલ</th>
+                                </tr>
+                                <tr class="border border-2 border-danger">
+                                    <th class="text-danger fw-bold">મંડપ</th>
+                                    <td id="mandap"></td>
+                                    <td id="m-day"></td>
+                                    <td id="t-ng-m"></td>
+                                    <td id="p-m"></td>
+                                    <td id="total-p-m"></td>
+                                </tr>
+                                <tr class="border border-2 border-danger">
+                                    <th class="text-danger fw-bold">વાસણ</th>
+                                    <td id="vasn"></td>
+                                    <td id="v-days"></td>
+                                    <td id="t-ng-va"></td>
+                                    <td id="p-va"></td>
+                                    <td id="total-p-va"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ગાદલા</th>
+                                    <td id="gadla"></td>
+                                    <td id="ga-days"></td>
+                                    <td id="t-ng-ga"></td>
+                                    <td id="p-ga"></td>
+                                    <td id="total-p-ga"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ચાદર</th>
+                                    <td id="chadr"></td>
+                                    <td id="ch-days"></td>
+                                    <td id="t-ng-ch"></td>
+                                    <td id="p-ch"></td>
+                                    <td id="total-p-ch"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ગોળ તકિયા</th>
+                                    <td id="takiya"></td>
+                                    <td id="d-takiya"></td>
+                                    <td id="t-ng-tak"></td>
+                                    <td id="p-tk"></td>
+                                    <td id="total-p-tk"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">કાર્પેટ</th>
+                                    <td id="karpet"></td>
+                                    <td id="d-kar"></td>
+                                    <td id="t-ng-kar"></td>
+                                    <td id="p-ka"></td>
+                                    <td id="total-p-kar"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ખુરશી</th>
+                                    <td id="khurshi"></td>
+                                    <td id="d-khu"></td>
+                                    <td id="t-ng-khu"></td>
+                                    <td id="p-khu"></td>
+                                    <td id="total-p-khu"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ટેબલ(સાદા)</th>
+                                    <td id="table-1"></td>
+                                    <td id="d-tab-1"></td>
+                                    <td id="t-ng-tab-1"></td>
+                                    <td id="p-tab-s"></td>
+                                    <td id="total-p-tab-1"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ટેબલ(કાગળ)</th>
+                                    <td id="table-2"></td>
+                                    <td id="d-tab-2"></td>
+                                    <td id="t-ng-tab-2"></td>
+                                    <td id="p-tab-k"></td>
+                                    <td id="total-p-tab-2"></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-danger fw-bold">ટેબલ(જાલર+કાગળ)</th>
+                                    <td id="table-3"></td>
+                                    <td id="d-tab-3"></td>
+                                    <td id="t-ng-tab-3"></td>
+                                    <td id="p-tab-jk"></td>
+                                    <td id="total-p-tab-3"></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="4"></th>
+                                    <th>TOTAL:- </th>
+                                    <th id="total"></th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
