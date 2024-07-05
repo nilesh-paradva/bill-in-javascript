@@ -3,25 +3,24 @@ printbtn.addEventListener('click',function(){
     print();
 });
 
-var nm_1,nm_2,orde,pro,retu,mandap,mandap_day,man_p,t_p_m,vasn,vasn_day,vasn_p,t_p_v,gadla,gadla_p,gadla_day,gadla_p,t_p_g,chadr,chadr_day,chadr_p,
-t_p_ch,takiya,takiya_day,takiya_p,t_takiya,t_p_tak,karpat,karpat_day,karpat_p,t_karpat,t_p_kar,khurshi,khurshi_day,khurshi_p,
-t_khu,t_p_khu,tab_s,tab_s_day,tab_s_p,t_tab_s,t_p_table_s,tab_k,tab_k_day,tab_k_p,t_tab_k,t_p_table_k,tab_jk,tab_jk_day,tab_jk_p,
-t_tab_jk,t_p_table_jk,total_all_price;
-
+var nm_1,nm_2,mob_no,orde,pro,retu,mandap,mandap_day,man_p,t_p_m,vasn,vasn_day,vasn_p,t_p_v,gadla,gadla_p,gadla_day,gadla_p,
+t_p_g,chadr,chadr_day,chadr_p,t_p_ch,takiya,takiya_day,takiya_p,t_takiya,t_p_tak,karpat,karpat_day,karpat_p,t_karpat,t_p_kar,
+khurshi,khurshi_day,khurshi_p,t_khu,t_p_khu,tab_s,tab_s_day,tab_s_p,t_tab_s,t_p_table_s,tab_k,tab_k_day,tab_k_p,t_tab_k,
+t_p_table_k,tab_jk,tab_jk_day,tab_jk_p,t_tab_jk,t_p_table_jk,total_all_price;
 
 nm_1 = prompt("નામ:- ");
 nm_2 = prompt("સરનામુ:- ");
+mob_no = parseInt(prompt("મોબાઇલ નંબર:-"));
 orde = prompt("ઓર્ડર લખાવ્યા તા:- ");
 pro = prompt("પોગ્રામ તા:- ");
 retu = prompt("પરત તા:- ");
 
 document.getElementById("name-1").innerHTML = nm_1;
 document.getElementById("name-2").innerHTML = nm_2;
+document.getElementById("mobi-nu").innerHTML = mob_no;
 document.getElementById("or").innerHTML = orde;
 document.getElementById("po").innerHTML = pro;
 document.getElementById("pa").innerHTML = retu;
-
-
 
 // mandap
 mandap = parseInt(prompt("કેટલા મંડપ:- "));
