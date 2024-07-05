@@ -2,3 +2,10 @@ th,td{
     border: 2px solid red;
     text-align: center;
 }
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+.b-r{
+    border-right: 2px solid white;
+}
