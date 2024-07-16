@@ -1,7 +1,7 @@
-var printbtn = document.getElementById("dlbtn");
-printbtn.addEventListener('click',function(){
-    print();
-});
+// var printbtn = document.getElementById("dlbtn");
+// printbtn.addEventListener('click',function(){
+//     print();
+// });
 
 var nm_1,nm_2,mob_no,orde,pro,retu,mandap,mandap_day,man_p,t_p_m,vasn,vasn_day,vasn_p,t_p_v,gadla,gadla_p,gadla_day,gadla_p,
 t_p_g,chadr,chadr_day,chadr_p,t_p_ch,takiya,takiya_day,takiya_p,t_takiya,t_p_tak,karpat,karpat_day,karpat_p,t_karpat,t_p_kar,
