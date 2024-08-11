@@ -140,7 +140,5 @@ document.getElementById("p-tab-jk").innerHTML = tab_jk_p;
 // total price takiya
 let t_p_table_jk = t_tab_jk * tab_jk_p;
 document.getElementById("total-p-tab-3").innerHTML = t_p_table_jk;
-
 let total_all_price = t_p_m + t_p_v + t_p_g + t_p_ch + t_p_tak + t_p_kar + t_p_khu + t_p_table_s + t_p_table_k + t_p_table_jk;
-
 document.getElementById("total").innerHTML = total_all_price; 
